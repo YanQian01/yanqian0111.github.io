@@ -524,9 +524,9 @@ h6::before {
 
 
 
-/* 全站黑白 */
+/* 全站黑白  */
 
-#html {
+html {
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
