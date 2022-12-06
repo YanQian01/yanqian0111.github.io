@@ -295,7 +295,7 @@ h6::before {
 
 
 
-@charset "UTF-8";
+/* @charset "UTF-8"; */
 
 :root {
   --heo-white: #fff;
