@@ -544,7 +544,7 @@ h6::before {
 
 
 /* page页面模糊 */
-.page #page:not(.home #page){
+/* .page #page:not(.home #page){
   background: transparent!important;
   border: none!important;
   box-shadow: none!important;
@@ -565,7 +565,7 @@ h6::before {
 [data-theme="dark"] #page::before{
   background-color: var(--lyx-black-acrylic2)!important;
 }
-
+ */
 
 
 
