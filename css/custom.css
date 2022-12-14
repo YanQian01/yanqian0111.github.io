@@ -544,7 +544,7 @@ h6::before {
 
 
 /* page页面模糊 */
-/* .page #page:not(.home #page){
+.page #page:not(.home #page){
   background: transparent!important;
   border: none!important;
   box-shadow: none!important;
@@ -565,7 +565,7 @@ h6::before {
 [data-theme="dark"] #page::before{
   background-color: var(--lyx-black-acrylic2)!important;
 }
- */
+
 
 
 
@@ -656,4 +656,28 @@ div#archive {
 .loading-img {
   background: url(http://q4.qlogo.cn/g?b=qq&nk=2742094445&s=100) no-repeat center center;
   background-size: cover;
+}
+
+
+
+
+
+
+#fps{
+  position: fixed;
+  right:10px;
+  bottom:4px;
+  z-index: 1919810;
+}
+[data-theme="light"] #fps{
+  background-color: var(--lyx-white-acrylic1);
+  padding: 4px;
+  border-radius: 4px;
+  backdrop-filter: blur(10px);
+}
+[data-theme="dark"] #fps{
+  background-color: var(--lyx-black-acrylic1);
+  padding: 4px;
+  border-radius: 4px;
+  backdrop-filter: blur(10px);
 }
