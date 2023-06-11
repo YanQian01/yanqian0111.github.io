@@ -657,3 +657,53 @@ div#archive {
   background: url(http://q4.qlogo.cn/g?b=qq&nk=2742094445&s=100) no-repeat center center;
   background-size: cover;
 }
+
+
+
+
+
+
+#fps{
+  position: fixed;
+  right:10px;
+  bottom:4px;
+  z-index: 1919810;
+}
+[data-theme="light"] #fps{
+  background-color: var(--lyx-white-acrylic1);
+  padding: 4px;
+  border-radius: 4px;
+  backdrop-filter: blur(10px);
+}
+[data-theme="dark"] #fps{
+  background-color: var(--lyx-black-acrylic1);
+  padding: 4px;
+  border-radius: 4px;
+  backdrop-filter: blur(10px);
+}
+
+
+
+
+
+/* 音乐播放器 */
+
+/* .aplayer .aplayer-lrc {
+  display: none !important;
+} */
+
+.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+  left: -66px !important;
+  transition: all 0.3s;
+  /* 默认情况下缩进左侧66px，只留一点箭头部分 */
+}
+
+.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+  left: 0 !important;
+  transition: all 0.3s;
+  /* 鼠标悬停是左侧缩进归零，完全显示按钮 */
+}
+
+.aplayer.aplayer-fixed {
+  z-index: 999999 !important;
+}
